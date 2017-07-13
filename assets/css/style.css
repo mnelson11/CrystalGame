@@ -1,0 +1,17 @@
+.gemImages{
+	width: 100%;
+	margin: 10px;
+}
+
+.container{
+	text-align: center;
+}
+
+#numberToGuess{
+	height:100px;
+	background: blue;
+}
+
+#instructions{
+	background: gold;
+}
