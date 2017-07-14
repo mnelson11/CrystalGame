@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 		<title>Crystal Game</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -20,37 +21,38 @@
 				<h1>Crystal Collector!</h1>
 			</div>
 			<div class=row id=instructions>
-				<p> You will be given a random number at the start of the game </p>
+				<p> You will be given a target number at the start of the game </p>
 				<p>There are four crystals below. By clicking a crystal you will add a specific amount of points to your score.</p>
-				<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+				<p>You win the game by matching your total score to the target number. You lose the game if your total score goes above the target number.</p>
 				<p>Each time when the game starts, the game will change the values of each crystal.</p>
 				</p1>
 			</div>
 
 			
 			<div class=row>
-				<div class=col-md-4 id=numberToGuess>
+				<div class=col-md-6 id=numberToGuess>
 					<p>Target Number: </p>
 				</div>
-				<div class="col-md-4 winCounter">
+				<div class="col-md-6 winCounter">
+					<p>Wins: 0 Loses: 0</p>
 				</div>
 			</div>
 
 			<!-- images of crystals -->
 			<div class=row id="crystals">
-				<!-- <div class=col-md-3 >
-					<img class="gemImages" src= "assets/images/1354727531.png" alt="red crystal">
+				<div class=col-md-3 >
+					<img class="gemImages" id=gem1 src= "assets/images/1354727531.png" alt="red crystal">
 				</div>
 
 				<div class=col-md-3 >
-					<img class="gemImages" src= "assets/images/blue-diamond-clip-art-blue-diamond-hi.png" alt="blue crystal">
+					<img class="gemImages" id= gem2 src= "assets/images/blue-diamond-clip-art-blue-diamond-hi.png" alt="blue crystal">
 				</div>
 				<div class=col-md-3 >
-					<img class="gemImages" src="assets/images/images.jpeg" alt="green crystal">
+					<img class="gemImages" id=gem3 src="assets/images/30f94492da4f36ecce88f0ecae61462d.jpg.png" alt="green crystal">
 				</div>
 				<div class=col-md-3 >
-					<img class="gemImages" src="assets/images/whiteDiamond.jpeg" alt="white crystal">
-				</div> -->
+					<img class="gemImages" id=gem4 src="assets/images/whiteDiamond.png" alt="white crystal">
+				</div>
 			</div>
 
 
@@ -58,6 +60,7 @@
 				<p id=scoreText>Your total score</p>
 			</div>
 			<div id=scoreTotal>
+				<p>0</p>
 			</div>
 		</div>
 	</body>

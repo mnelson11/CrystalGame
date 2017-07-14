@@ -1,3 +1,17 @@
+
+body{
+	background: url("G-J0vnr0.jpeg");
+
+	
+}
+
+.container{
+	background: lightgrey;
+	margin: 100px;
+	font-family: 'Arimo', sans-serif;
+
+}
+
 .gemImages{
 	width: 100%;
 	margin: 10px;
@@ -10,8 +24,37 @@
 #numberToGuess{
 	height:100px;
 	background: blue;
+	font-size: 30px;
+
 }
 
 #instructions{
 	background: gold;
+	font-size: 20px;
+}
+
+.winCounter{
+	background: green;
+	height: 100px;
+	font-size: 30px;
+
+}
+#scoreText{
+	background: red;
+	font-size: 20px;
+
+}
+#scoreTotal{
+	
+	font-size: 30px
+
+
+}
+
+h1{
+	background: pink;
+	
+	height:50px;
+	font-family: 'Alfa Slab One', cursive;
+
 }
