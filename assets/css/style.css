@@ -1,47 +1,58 @@
 
 body{
-	background: url("G-J0vnr0.jpeg");
+	background: url("free-glitter-bubble-texture-psd.png");
 
 	
 }
 
+
+
 .container{
-	background: lightgrey;
+	background: silver;
 	margin: 100px;
 	font-family: 'Arimo', sans-serif;
+	padding: 10px;
+	text-align:center;
+
 
 }
 
 .gemImages{
 	width: 100%;
 	margin: 10px;
+
 }
 
-.container{
-	text-align: center;
-}
+
 
 #numberToGuess{
 	height:100px;
-	background: blue;
+	background: #412DFE;
 	font-size: 30px;
+	color: #2b2b2b;
 
 }
 
 #instructions{
-	background: gold;
+	background: pink;
 	font-size: 20px;
+	
 }
 
 .winCounter{
-	background: green;
+	background: purple;
 	height: 100px;
 	font-size: 30px;
+	color: #2b2b2b;
+	
 
 }
 #scoreText{
-	background: red;
+	background:aqua;
 	font-size: 20px;
+	color: #2b2b2b;
+	
+
 
 }
 #scoreTotal{
@@ -52,9 +63,25 @@ body{
 }
 
 h1{
-	background: pink;
-	
-	height:50px;
-	font-family: 'Alfa Slab One', cursive;
+	font-size: 60px;
+	font: 400 100px/1.3 'Lobster Two',cursive, Helvetica, sans-serif;
+  	color: #2b2b2b;
+  	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
 
+}
+
+.gemImages{
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.gemImages:hover {
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
 }
